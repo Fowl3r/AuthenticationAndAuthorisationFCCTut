@@ -25,6 +25,7 @@ const UserSchema = new mongoose.Schema({
 	username: String,
 	hash: String,
 	salt: String,
+	admin: Boolean,
 });
 
 // create a model based on the schema above
